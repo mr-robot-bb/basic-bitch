@@ -7,6 +7,6 @@ app.get('/', function(req, res){
 });
 
 app.listen(PORT, function(){
-	console.log('Express server started on port ' + port);
+	console.log('Express server started on port ' + PORT);
 });
 
