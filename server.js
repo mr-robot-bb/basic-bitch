@@ -8,9 +8,7 @@ app.get('/', function(req, res){
 });
 
 
-/*
-app.use(express.static(__dirname + '/public'));
-*/
+
 
 app.listen(port, function(){
 	console.log('Express server started on port ' + port);
